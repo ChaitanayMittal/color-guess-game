@@ -41,5 +41,6 @@ for (var i = 0; i < numberOfColors; i++) {
 function changeColors() {
   for (var j = 0; j < numberOfColors; j++) {
     document.querySelectorAll(".colourButton")[j].style.backgroundColor = colorSet[correctIndex];
+    document.querySelector("#colourValue").style.color = colorSet[correctIndex];
   }
 }
