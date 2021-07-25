@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
 
-    <!-- BOOTSTRAP CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
 
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- BOOTSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Color guessing game</title>
-  </head>
-  <body>
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Color guessing game</title>
+</head>
+
+<body>
+  <main>
     <h1>Guess the colour!</h1>
     <h2 id="colourValue"></h2>
     <div id="buttonWrapper">
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
+      <button class="colourButton"></button>
+      <button class="colourButton"></button>
+      <button class="colourButton"></button>
+      <button class="colourButton"></button>
+      <button class="colourButton"></button>
+      <button class="colourButton"></button>
     </div>
     <h2 id="answer">Click on a color to guess!</h2>
 
@@ -29,8 +32,14 @@
         Reset Game
       </button>
     </div>
+  </main>
+  <footer>
+    <h6>
+      Created by <a href="https://github.com/ChaitanayMittal" target="_blank">Chaitanay Mittal</a>
+    </h6>
+  </footer>
+  <script src="script.js"></script>
+</body>
+<script src="index.js" charset="utf-8"></script>
 
-    <script src="script.js"></script>
-  </body>
-  <script src="index.js" charset="utf-8"></script>
 </html>
